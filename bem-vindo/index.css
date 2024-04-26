@@ -9,6 +9,8 @@
     border: 0;
  }
  
+/* Logo do site. */
+
  .linha1 {
     display: flex; 
     flex-direction: row;
@@ -59,6 +61,9 @@
     color: #FFFFFF;
     font-family: "Italiana", sans-serif;
 }
+
+/* Conteúdo de texto. */
+
 .bemVindo {
     display: flex; 
     flex-direction: row;
@@ -66,4 +71,48 @@
     align-items: center;
     color: #FFFFFF;
     font-family: "Italiana", sans-serif;
+    margin-top: 60px;
+    font-size: 64px;
 }
+.proposito {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+}
+
+/* Botões */
+    .botao-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 10px auto;
+        width: 50%;
+      }
+
+      .botaoContainer .botao {
+        margin: 0 100px;
+    }
+  
+      .botao {
+        padding: 103px 244px;
+        background-color: #32200A;
+        color: #FFFFFF;
+        font-size: 40px;
+        font-family: "Josefin Slab", sans-serif;
+        border: none;
+        cursor: pointer;
+      }
+  
+        .emphasized {
+            font-weight: bold;
+            background-color: #32200A;
+            font-size: 30px;
+         }
+
+      .botao:hover {
+        background-color: #FFA500;
+      }
