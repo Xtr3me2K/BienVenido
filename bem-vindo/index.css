@@ -1,6 +1,7 @@
 /* Fundo do site. */
 *{ 
     background-color: #000000;
+
 }
 /* 1 */
 * {
@@ -98,7 +99,7 @@
     }
   
       .botao {
-        padding: 70px 150px;
+        padding: 1% 44%;
         background-color: #32200A;
         color: #FFFFFF;
         font-size: 30px;
@@ -107,6 +108,7 @@
         font-style: normal;
         border: none;
         cursor: pointer;
+        border-radius: 5px;
       }
   
         .emphasized {
@@ -115,11 +117,6 @@
             font-weight: 300;
             font-style: normal;
          }
-
-      .botao:hover {
-        background-color: #FFA500;
-      }
-
       
 .botao img {
     max-width: 100%;
