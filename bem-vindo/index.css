@@ -87,30 +87,33 @@
 /* Botões */
     .botao-container {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        margin: 10px auto;
+        margin: 50px auto;
         width: 50%;
       }
 
-      .botaoContainer .botao {
-        margin: 0 100px;
+      .botao-container .botao {
+        margin: 0 80px;
     }
   
       .botao {
-        padding: 103px 244px;
+        padding: 70px 150px;
         background-color: #32200A;
         color: #FFFFFF;
-        font-size: 40px;
+        font-size: 30px;
         font-family: "Josefin Slab", sans-serif;
+        font-weight: 300;
+        font-style: normal;
         border: none;
         cursor: pointer;
       }
   
         .emphasized {
-            font-weight: bold;
             background-color: #32200A;
             font-size: 30px;
+            font-weight: 300;
+            font-style: normal;
          }
 
       .botao:hover {
