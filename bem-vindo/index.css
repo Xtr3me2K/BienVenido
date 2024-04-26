@@ -119,3 +119,10 @@
       .botao:hover {
         background-color: #FFA500;
       }
+
+      
+.botao img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 10px; /* Ajuste conforme necessário */
+}
